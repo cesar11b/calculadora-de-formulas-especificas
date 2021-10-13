@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Ecuacion
+    public abstract class Ecuacion
     {
+
+        public int  Datos {get; set;}
+
+        
+
+
+
     }
 }
